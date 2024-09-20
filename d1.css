@@ -1,0 +1,21 @@
+    body{
+          
+    .columns{
+        columns: 3;
+        text-align: justify;
+        column-gap:20px ;
+        column-rule: 1px solid blue;
+        line-height: 1.5;
+        }
+        
+        .columns::first-letter{
+           font-size: 40px;
+           font-weight: bold;
+           color:blue;
+           float: left;
+           margin: 5px;
+           line-height: 0.8;
+           text-shadow: 4px -4px 2px rgb(110, 233, 9);
+           border-color: black;
+        }
+    }
